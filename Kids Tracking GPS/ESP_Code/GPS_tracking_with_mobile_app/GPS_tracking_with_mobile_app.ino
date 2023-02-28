@@ -14,10 +14,10 @@ TinyGPSPlus gps; // create gps object
 //#endif
 
 
-#define FIREBASE_HOST "gps-tracking-esp32-1e43e-default-rtdb.firebaseio.com"
-#define FIREBASE_AUTH "QOsOx4Rhsba3iG2qVerTJvaDO91Thqh5HblKftgQ"
-#define WIFI_SSID "iPhone1"   //iPhone1
-#define WIFI_PASSWORD "123456789"  //123456789
+#define FIREBASE_HOST ""     // YOUR Real-time database link 
+#define FIREBASE_AUTH ""     // YOUR  database token
+#define WIFI_SSID ""        // YOUR WIFI_SSID
+#define WIFI_PASSWORD ""    // YOUR WIFI_PASSWORD
 
 int led = 2 ;
 //Define FirebaseESP8266 data object
